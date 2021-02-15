@@ -7,7 +7,7 @@ class API extends Component {
     }
 
     callAPI() {
-        fetch("http://localhost:9000/testAPI")
+        fetch("http://localhost:9000/reactAPI")
             .then(res => res.text())
             .then(res => this.setState({ apiResponse: res }));
     }
